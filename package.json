@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack src/index.js public/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/da-matsumoto/webpack-test/issues"
   },
-  "homepage": "https://github.com/da-matsumoto/webpack-test#readme"
+  "homepage": "https://github.com/da-matsumoto/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
 }
